@@ -1,0 +1,25 @@
+Command: ninja all
+[1/10] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\henri\OneDrive\Desktop\WiFiSensingTwoSensors\firmware\esp_tx\build\bootloader\esp-idf\esptool_py && python C:/Espressif/frameworks/esp-idf-v5.5.5/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6610 bytes. 0x9f0 bytes (9%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/main/main.c:94:13: warning: 'tratar_eventos' defined but not used [-Wunused-function]
+   94 | static void tratar_eventos(void *arg, esp_event_base_t base, int32_t id, void *dados)
+      |             ^~~~~~~~~~~~~~
+C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/main/main.c:90:21: warning: 's_tarefa_envio' defined but not used [-Wunused-variable]
+   90 | static TaskHandle_t s_tarefa_envio = NULL;
+      |                     ^~~~~~~~~~~~~~
+[4/10] Completed 'bootloader'
+[5/10] Linking C static library esp-idf\main\libmain.a
+[6/10] Generating esp-idf/esp_system/ld/sections.ld
+[7/10] Building C object CMakeFiles/app-template.elf.dir/project_elf_src_esp32.c.obj
+[8/10] Linking CXX executable app-template.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.12.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/app-template.bin
+[10/10] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\henri\OneDrive\Desktop\WiFiSensingTwoSensors\firmware\esp_tx\build\esp-idf\esptool_py && python C:/Espressif/frameworks/esp-idf-v5.5.5/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/partition_table/partition-table.bin C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/app-template.bin"
+app-template.bin binary size 0x2b050 bytes. Smallest app partition is 0x100000 bytes. 0xd4fb0 bytes (83%) free.

@@ -1,0 +1,9 @@
+
+
+# Load bootloader symbols
+set confirm off
+    # Bootloader elf was not found
+set confirm on
+
+# Load application symbols
+file C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/bootloader/bootloader.elf

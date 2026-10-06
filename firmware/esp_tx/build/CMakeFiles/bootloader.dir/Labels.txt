@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/CMakeFiles/bootloader
+C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/CMakeFiles/bootloader.rule
+C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/CMakeFiles/bootloader-complete.rule
+C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_tx/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

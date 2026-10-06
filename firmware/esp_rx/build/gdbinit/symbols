@@ -1,0 +1,9 @@
+
+
+# Load bootloader symbols
+set confirm off
+    add-symbol-file C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_rx/build/bootloader/bootloader.elf
+set confirm on
+
+# Load application symbols
+file C:/Users/henri/OneDrive/Desktop/WiFiSensingTwoSensors/firmware/esp_rx/build/app-template.elf
